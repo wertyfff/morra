@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MORRA — керамика для повседневных ритуалов</title>
+    <meta name="description" content="MORRA — современная керамика ручной работы. Необычные формы, живые цвета, небольшие тиражи. Made to be lived with." />
+    <meta name="theme-color" content="#f3f1ec" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232143b3'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="loader" data-loader data-lenis-prevent role="status" aria-label="Загрузка">
+      <p class="loader__logo">MORRA</p>
+      <p class="loader__count"><span data-loader-num>1</span><span class="loader__pct">%</span></p>
+    </div>
+
+    <a class="skip" href="#collections">К коллекциям</a>
+
+    <header class="head" data-head>
+      <a class="head__logo" href="#top" aria-label="MORRA, в начало">MORRA</a>
+      <nav class="head__nav" id="nav" data-nav>
+        <a href="#collections">Коллекции</a>
+        <a href="#shop">Каталог</a>
+        <a href="#why">Почему MORRA</a>
+        <a href="#table">Собрать стол</a>
+        <a href="#about">О бренде</a>
+      </nav>
+      <div class="head__side">
+        <button class="head__cart" type="button" data-cart-open>Корзина <span data-cart-count>0</span></button>
+        <button class="head__menu" type="button" aria-expanded="false" aria-controls="nav" data-menu>Меню</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero__still" data-hero role="img" aria-label="Керамика MORRA: молочная ваза, зелёная тарелка, синяя чашка, терракотовый стакан и молочная миска">
+          <div class="hero__group" data-depth="0.45">
+            <div class="hero__drift">
+              <img class="hero__shadow hero__sh--vase" src="/src/assets/hero/vase-shadow.webp" alt="" />
+              <img class="hero__piece hero__at--vase" src="/src/assets/hero/vase.webp" alt="" />
+              <img class="hero__shadow hero__sh--plate" src="/src/assets/hero/plate-shadow.webp" alt="" />
+              <img class="hero__piece hero__at--plate" src="/src/assets/hero/plate.webp" alt="" />
+            </div>
+          </div>
+          <div class="hero__group" data-depth="0.6">
+            <div class="hero__drift">
+              <img class="hero__shadow hero__sh--tumbler" src="/src/assets/hero/tumbler-shadow.webp" alt="" />
+              <img class="hero__piece hero__at--tumbler" src="/src/assets/hero/tumbler.webp" alt="" />
+              <img class="hero__shadow hero__sh--bowl" src="/src/assets/hero/bowl-shadow.webp" alt="" />
+              <img class="hero__piece hero__at--bowl" src="/src/assets/hero/bowl.webp" alt="" />
+            </div>
+          </div>
+          <div class="hero__group" data-depth="1">
+            <div class="hero__drift">
+              <img class="hero__shadow hero__sh--cup" src="/src/assets/hero/cup-shadow.webp" alt="" />
+              <img class="hero__piece hero__at--cup" src="/src/assets/hero/cup.webp" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="hero__text">
+          <h1 class="hero__title">
+            <span class="line"><span>Керамика,</span></span>
+            <span class="line"><span>которая остаётся</span></span>
+            <span class="line"><span>на виду</span></span>
+          </h1>
+          <p class="hero__lead" data-fade>Современные формы. Живые цвета. Ручная работа.</p>
+          <a class="btn" href="#shop" data-fade>Смотреть коллекцию</a>
+        </div>
+        <p class="hero__note" data-fade>Керамика / Ручная работа / Вещи на каждый день</p>
+      </section>
+
+      <section class="collections wrap" id="collections">
+        <div class="collections__intro">
+          <h2 class="h2">Четыре коллекции — от чашки на каждый день до вазы-скульптуры</h2>
+          <p>Небольшие тиражи вместо бесконечного производства. Предметы из разных коллекций задуманы так, чтобы стоять на одном столе.</p>
+        </div>
+
+        <div class="collections__grid">
+          <figure class="col col--objects">
+            <div class="col__pic" style="--tint: #e3e1da"><img src="/stills/photo-objects.webp" width="1418" height="1109" loading="lazy" decoding="async" alt="Коллекция Objects: молочная миска на зелёной тарелке, терракотовый и синий стаканы на льняной дорожке" /></div>
+            <figcaption>
+              <svg class="arrow" viewBox="0 0 120 70" aria-hidden="true"><path d="M112 58C84 66 46 60 28 34c-4-6-7-13-8-20" /><path d="M8 26l11-13 12 11" /></svg>
+              <h3>Objects</h3>
+              <p>Основная коллекция: чашки, тарелки, миски, стаканы. Формы необычные, но спокойные.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="col col--earth">
+            <div class="col__pic" style="--tint: #e2d3c0"><img src="/stills/photo-earth.webp" width="1436" height="1095" loading="lazy" decoding="async" alt="Коллекция Earth: молочная тарелка на розово-глиняной, зелёная миска, жёлтый и серо-голубой стаканы на деревянном столе" /></div>
+            <figcaption>
+              <svg class="arrow" viewBox="0 0 120 70" aria-hidden="true"><path d="M6 60c30 6 70-4 86-30 3-5 5-11 6-17" /><path d="M86 22l12-10 10 13" /></svg>
+              <h3>Earth</h3>
+              <p>Терракота, песок, молочный, оливковый. Фактурная поверхность. Shaped by hand.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="col col--color">
+            <div class="col__pic" style="--tint: #d8dce6"><img src="/stills/photo-color.webp" width="1435" height="1096" loading="lazy" decoding="async" alt="Коллекция Color: синий стакан на зелёной тарелке, красная миска, синий и красный стаканы на льняной дорожке" /></div>
+            <figcaption>
+              <svg class="arrow" viewBox="0 0 120 70" aria-hidden="true"><path d="M112 58C84 66 46 60 28 34c-4-6-7-13-8-20" /><path d="M8 26l11-13 12 11" /></svg>
+              <h3>Color</h3>
+              <p>Самая смелая коллекция: кобальт, красный, зелёный. Цвета задуманы, чтобы их смешивать.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="col col--form">
+            <div class="col__pic col__pic--dark" style="--tint: #2a2c2f"><img src="/stills/photo-form.webp" width="1024" height="1536" loading="lazy" decoding="async" alt="Коллекция Form: большая синяя ваза, малая молочная ваза и светлая миска на деревянном столе" /></div>
+            <figcaption>
+              <svg class="arrow" viewBox="0 0 120 70" aria-hidden="true"><path d="M6 60c30 6 70-4 86-30 3-5 5-11 6-17" /><path d="M86 22l12-10 10 13" /></svg>
+              <h3>Form</h3>
+              <p>Экспериментальная линия: вазы и большие чаши, почти арт-объекты.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="shop wrap" id="shop">
+        <div class="shop__head">
+          <h2 class="h2">Найти свою</h2>
+          <p>Двух одинаковых здесь нет: у каждой вещи свой край, свой оттенок и свой след от рук.</p>
+        </div>
+        <ul class="shop__grid" data-products></ul>
+      </section>
+
+      <section class="why" id="why">
+        <div class="wrap">
+          <h2 class="h2 why__title">Почему MORRA</h2>
+
+          <div class="why__row">
+            <h3>Форма</h3>
+            <p>Мы переосмысливаем привычные предметы. Чашка может быть асимметричной, тарелка — почти скульптурой, ваза — выглядеть как объект современного искусства. Форма становится частью интерьера.</p>
+          </div>
+
+          <div class="why__row">
+            <h3>Цвет</h3>
+            <p>У MORRA своя палитра из шести глазурей, а не только белый, бежевый и чёрный. Самое интересное — сочетать их между собой.</p>
+          </div>
+        </div>
+
+        <div class="glaze" data-glaze-section>
+          <canvas class="glaze__canvas" data-glaze aria-label="Чашка, миска и тарелка в выбранной глазури"></canvas>
+          <div class="glaze__panel">
+            <div class="pills" role="group" aria-label="Глазурь" data-glaze-pills></div>
+            <p class="glaze__name"><span data-glaze-name>Cobalt</span> <small data-glaze-ru>глубокий синий</small></p>
+            <p class="glaze__note" data-glaze-note></p>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="why__row">
+            <h3>Ручная работа</h3>
+            <div>
+              <p>Каждый предмет проходит пять этапов. Небольшие различия в форме и оттенке — естественная часть процесса, поэтому две вещи никогда не бывают абсолютно одинаковыми.</p>
+              <ol class="steps">
+                <li><b>Глина</b><span>Замешиваем массу</span></li>
+                <li><b>Форма</b><span>Тянем на круге</span></li>
+                <li><b>Обжиг</b><span>Первый, 900 °C</span></li>
+                <li><b>Глазурь</b><span>Окунаем вручную</span></li>
+                <li><b>Финальный обжиг</b><span>1 220 °C, сутки</span></li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="why__row">
+            <h3>Для жизни</h3>
+            <p>Это не керамика, которую страшно достать из шкафа. MORRA создаётся, чтобы пользоваться ей каждый день: предметы выдерживают посудомоечную машину и микроволновку. Красивое не должно ждать особого случая.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="imperfect" id="imperfect">
+        <div class="imperfect__text">
+          <h2 class="imperfect__title">Imperfect<br />by design</h2>
+          <p class="imperfect__lead">Несовершенство — часть формы. Мы не скрываем особенности производства, мы оставляем их.</p>
+        </div>
+        <canvas class="imperfect__canvas" data-imperfect aria-label="Миска, форма которой меняется от идеально ровной до сделанной вручную"></canvas>
+        <div class="imperfect__control">
+          <label for="hand">Подвиньте, чтобы увидеть разницу</label>
+          <div class="range">
+            <span>С конвейера</span>
+            <input id="hand" type="range" min="0" max="100" value="0" data-hand />
+            <span>Из рук</span>
+          </div>
+          <ul class="imperfect__marks" data-marks>
+            <li data-at="20">Небольшая неровность края</li>
+            <li data-at="50">Чуть отличающийся оттенок глазури</li>
+            <li data-at="80">След ручной работы</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="table wrap" id="table">
+        <div class="table__panel">
+          <h2 class="h2">Соберите свой стол</h2>
+          <p class="table__lead">Не нужно искать чашку, потом тарелку, потом миску. Выберите набор и цвет — мы подобрали предметы так, чтобы они сочетались.</p>
+
+          <fieldset class="field">
+            <legend>Набор</legend>
+            <div class="sets" data-sets></div>
+          </fieldset>
+
+          <fieldset class="field">
+            <legend>Цвет</legend>
+            <div class="pills pills--ink" data-table-pills></div>
+          </fieldset>
+
+          <div class="table__sum">
+            <div>
+              <p class="table__name" data-set-name></p>
+              <p class="table__lines" data-set-lines></p>
+            </div>
+            <p class="table__price" data-set-price></p>
+          </div>
+          <button class="btn btn--wide" type="button" data-set-add>Добавить набор в корзину</button>
+        </div>
+        <div class="table__stage">
+          <canvas data-table aria-label="Выбранный набор посуды на столе"></canvas>
+        </div>
+      </section>
+
+      <section class="about wrap" id="about">
+        <h2 class="about__big">Мы верим, что повседневные вещи заслуживают большего.</h2>
+        <div class="about__cols">
+          <p>MORRA появилась из простой идеи: предметы, которыми мы пользуемся каждый день, могут быть красивыми, необычными и личными.</p>
+          <p>Мы работаем с керамикой вручную, экспериментируем с формой, цветом и фактурой и создаём небольшие коллекции вместо бесконечного производства.</p>
+          <p>Каждый предмет проходит собственный путь от бесформенного куска глины до готовой вещи. Поэтому в каждом из них остаётся что-то человеческое.</p>
+        </div>
+        <div class="about__rituals" aria-hidden="true">
+          <span>Утренний кофе</span><span>Поздний завтрак</span><span>Ужин с друзьями</span><span>Один бокал вина вечером</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap foot__top">
+        <ul class="foot__links">
+          <li><a href="#collections">Коллекции</a></li>
+          <li><a href="#shop">Каталог</a></li>
+          <li><a href="#table">Собрать стол</a></li>
+          <li><a href="#about">О бренде</a></li>
+        </ul>
+        <ul class="foot__links">
+          <li><a href="https://www.instagram.com/sqaurex/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://t.me/kiwnt1" target="_blank" rel="noopener">Telegram</a></li>
+          <li><a href="mailto:sssapovalov780@gmail.com">sssapovalov780@gmail.com</a></li>
+        </ul>
+      </div>
+      <p class="foot__mark" aria-hidden="true">MORRA</p>
+      <div class="wrap foot__bottom">
+        <p>Made to be lived with. Создано для жизни.</p>
+        <p>© 2026 MORRA</p>
+      </div>
+    </footer>
+
+    <aside class="cart" id="cart" data-cart aria-label="Корзина" hidden>
+      <div class="cart__head">
+        <h2>Корзина</h2>
+        <button type="button" data-cart-close>Закрыть</button>
+      </div>
+      <ul class="cart__list" data-cart-list></ul>
+      <p class="cart__empty" data-cart-empty>Пока пусто. Выберите предмет в каталоге или соберите набор.</p>
+      <div class="cart__foot" data-cart-foot>
+        <p>Итого <b data-cart-total></b></p>
+        <button class="btn btn--wide" type="button" data-checkout>Оформить заказ</button>
+      </div>
+    </aside>
+    <div class="scrim" data-scrim hidden></div>
+    <p class="toast" data-toast role="status"></p>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
